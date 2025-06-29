@@ -33,7 +33,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Let's Connect</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Get in Touch</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </motion.div>
         
@@ -46,7 +46,6 @@ export default function Contact() {
             viewport={{ once: true }}
           >
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">Get in Touch</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
                 I'm currently looking for new opportunities in software development. Whether you have a question, 
                 want to collaborate on a project, or just want to say hi, I'll try my best to get back to you!
