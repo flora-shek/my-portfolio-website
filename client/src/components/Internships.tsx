@@ -8,7 +8,7 @@ export default function Internships() {
     {
       company: "ILIFE Technologies",
       role: "Web Developer Intern",
-      duration: "May 2024 – July 2024",
+      duration: "08.05.2024 - 07.06.2024",
       description: "Developed responsive landing pages using HTML5, CSS3, and Bootstrap.",
       technologies: ["HTML/CSS", "Bootstrap", "JavaScript", "GSAP"],
       icon: Code,
