@@ -17,7 +17,7 @@ export default function Internships() {
     {
       company: "Digital Innovations Ltd",
       role: "Frontend Developer Intern",
-      duration: "August 2024 – October 2024",
+      duration: "01.06.2022 - 03.06.2022",
       description: "Built interactive React components for a customer dashboard application. Implemented state management using Redux and integrated RESTful APIs. Participated in code reviews and agile development processes.",
       technologies: ["React", "Redux", "JavaScript", "REST APIs"],
       icon: Monitor,
