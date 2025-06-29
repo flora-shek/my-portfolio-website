@@ -7,7 +7,7 @@ import { ExternalLink, Github, ShoppingCart, BarChart3, MessageCircle, DollarSig
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Job search platform",
       description: "A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration using React and Django.",
       technologies: ["React", "Django", "PostgreSQL", "Stripe"],
       icon: ShoppingCart,
