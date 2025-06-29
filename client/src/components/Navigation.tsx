@@ -70,9 +70,7 @@ export default function Navigation() {
             <button 
               onClick={() => scrollToSection('home')}
               className="text-xl font-bold gradient-text"
-            >
-              JD
-            </button>
+            >SF</button>
           </div>
           
           {/* Desktop Navigation */}
