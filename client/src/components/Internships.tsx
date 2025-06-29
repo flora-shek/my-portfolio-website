@@ -35,7 +35,7 @@ export default function Internships() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Experience</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Internships</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </motion.div>
         
