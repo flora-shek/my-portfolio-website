@@ -59,7 +59,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">Professional Bio</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                I'm a passionate individual with a strong foundation in computer science and a keen interest in software development. 
+                I'm a passionate MCA graduate with a strong foundation in computer science and a keen interest in software development. 
                 My journey in technology started during my undergraduate studies and has grown into a deep passion for creating 
                 innovative web applications and solving complex problems through code.
               </p>
@@ -76,7 +76,7 @@ export default function About() {
                     <CardContent className="p-4">
                       <div className="flex items-start justify-between mb-2">
                         <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications (MCA)</h4>
-                        <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">Current</span>
+                        <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded-full">Completed</span>
                       </div>
                       <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Bishop Heber College</p>
                       <p className="text-slate-500 dark:text-slate-400 text-sm">2023 - 2025</p>

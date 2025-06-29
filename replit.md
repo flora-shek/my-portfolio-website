@@ -95,6 +95,9 @@ Changelog:
   - Removed resume download button from navigation
   - Reduced featured projects to 2 cards
   - Removed descriptive text from contact section header
+  - Created education timeline with visual progression dots and lines
+  - Updated MCA status to "Completed" (finished April 2025)
+  - Restored "MCA graduate" in professional bio
 ```
 
 ## User Preferences
