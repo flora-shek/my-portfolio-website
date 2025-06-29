@@ -6,9 +6,7 @@ export default function Footer() {
           <p className="text-slate-400 mb-4">
             Designed & Built by John Doe
           </p>
-          <p className="text-slate-500 text-sm">
-            © 2024 John Doe. All rights reserved.
-          </p>
+          <p className="text-slate-500 text-sm">© 2025 Shekinah Florance. All rights reserved.</p>
         </div>
       </div>
     </footer>
