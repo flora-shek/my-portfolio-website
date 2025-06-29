@@ -70,7 +70,7 @@ export default function About() {
               <Card className="bg-slate-50 dark:bg-slate-700">
                 <CardContent className="p-4">
                   <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications (MCA)</h4>
-                  <p className="text-slate-600 dark:text-slate-300">ABC University • 2023 - 2025</p>
+                  <p className="text-slate-600 dark:text-slate-300">Bishop Heber College • 2023 - 2025</p>
                   <p className="text-sm text-slate-500 dark:text-slate-400 mt-2">
                     Specialization in Software Development and Database Management
                   </p>
