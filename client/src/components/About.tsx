@@ -90,7 +90,7 @@ export default function About() {
                   <Card className="bg-slate-50 dark:bg-slate-700">
                     <CardContent className="p-4">
                       <h4 className="font-semibold text-slate-900 dark:text-white">Bachelor of Computer Applications (BCA)</h4>
-                      <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Previous Institution</p>
+                      <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Bishop Heber College</p>
                       <p className="text-slate-500 dark:text-slate-400 text-sm">2020 - 2023</p>
                     </CardContent>
                   </Card>
