@@ -18,7 +18,7 @@ export default function Projects() {
     {
       title: "Financial Text Sentiment Analyser",
       description: "Built a tool for analyzing sentiment in financial texts using Hugging Face Transformers.",
-      technologies: ["Huggingface api", "Python Flask"],
+      technologies: ["Hugging Face api", "Python Flask"],
       icon: BarChart3,
       gradient: "from-green-500 to-teal-600",
       demoUrl: "https://financal-news-sentiment-analysis.onrender.com",
