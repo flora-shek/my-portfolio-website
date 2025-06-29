@@ -48,23 +48,37 @@ export default function About() {
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
         </motion.div>
         
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        {/* Career Summary - Full Width */}
+        <motion.div 
+          className="mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <div className="max-w-4xl mx-auto">
+            <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3 text-center">Career Summary</h3>
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-center text-lg">
+              I'm a passionate MCA graduate with a strong foundation in computer science and a keen interest in software development. 
+              My journey in technology started during my undergraduate studies and has grown into a deep passion for creating 
+              innovative web applications and solving complex problems through code.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Education Timeline and Values & Interests - Side by Side */}
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <motion.div 
             className="space-y-6"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">Career Summary</h3>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">I'm a passionate individual with a strong foundation in computer science and a keen interest in software development.</p>
-            </div>
-            
-            <div>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">Education Timeline</h3>
               <div className="space-y-4">
-                {/* MCA - Current */}
+                {/* MCA - Completed */}
                 <div className="relative pl-8">
                   <div className="absolute left-0 top-1 w-3 h-3 bg-blue-600 rounded-full"></div>
                   <div className="absolute left-1.5 top-4 w-0.5 h-8 bg-blue-200 dark:bg-blue-800"></div>
@@ -93,15 +107,13 @@ export default function About() {
                 </div>
               </div>
             </div>
-            
-
           </motion.div>
           
           <motion.div 
             className="space-y-6"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
             viewport={{ once: true }}
           >
             <div>
@@ -113,7 +125,7 @@ export default function About() {
                     className={`bg-gradient-to-br ${value.gradient} p-4 rounded-lg`}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, delay: 0.6 + index * 0.1 }}
+                    transition={{ duration: 0.4, delay: 0.8 + index * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ scale: 1.05 }}
                   >
