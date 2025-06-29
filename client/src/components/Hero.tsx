@@ -51,14 +51,7 @@ export default function Hero() {
             MCA Graduate | Aspiring Software Developer
           </motion.p>
           
-          <motion.p 
-            className="text-lg text-slate-500 dark:text-slate-400 mb-12 max-w-2xl mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-          >
-            Passionate about creating innovative web solutions and building meaningful digital experiences with modern technologies.
-          </motion.p>
+          
           
           <motion.div 
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
