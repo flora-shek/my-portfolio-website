@@ -66,14 +66,36 @@ export default function About() {
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">Education</h3>
-              <Card className="bg-slate-50 dark:bg-slate-700">
-                <CardContent className="p-4">
-                  <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications (MCA)</h4>
-                  <p className="text-slate-600 dark:text-slate-300">Bishop Heber College • 2023 - 2025</p>
-                  
-                </CardContent>
-              </Card>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">Education Timeline</h3>
+              <div className="space-y-4">
+                {/* MCA - Current */}
+                <div className="relative pl-8">
+                  <div className="absolute left-0 top-1 w-3 h-3 bg-blue-600 rounded-full"></div>
+                  <div className="absolute left-1.5 top-4 w-0.5 h-8 bg-blue-200 dark:bg-blue-800"></div>
+                  <Card className="bg-slate-50 dark:bg-slate-700">
+                    <CardContent className="p-4">
+                      <div className="flex items-start justify-between mb-2">
+                        <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications (MCA)</h4>
+                        <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">Current</span>
+                      </div>
+                      <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Bishop Heber College</p>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">2023 - 2025</p>
+                    </CardContent>
+                  </Card>
+                </div>
+                
+                {/* Bachelor's Degree */}
+                <div className="relative pl-8">
+                  <div className="absolute left-0 top-1 w-3 h-3 bg-slate-400 rounded-full"></div>
+                  <Card className="bg-slate-50 dark:bg-slate-700">
+                    <CardContent className="p-4">
+                      <h4 className="font-semibold text-slate-900 dark:text-white">Bachelor of Computer Applications (BCA)</h4>
+                      <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Previous Institution</p>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">2020 - 2023</p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
             </div>
             
 
