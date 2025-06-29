@@ -8,21 +8,21 @@ export default function Projects() {
   const projects = [
     {
       title: "Job search platform",
-      description: "A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration using React and Django.",
-      technologies: ["React", "Django", "PostgreSQL", "Stripe"],
+      description: "Developed a job search engine with structured filtering and efficient data handling.",
+      technologies: ["Flask", "MySQL", "Render", "RESTfull API"],
       icon: ShoppingCart,
       gradient: "from-blue-500 to-purple-600",
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://jovian-careers-web.onrender.com",
+      githubUrl: "https://github.com/flora-shek/Job_search_platform"
     },
     {
-      title: "Analytics Dashboard",
-      description: "Interactive data visualization dashboard built with React and D3.js, featuring real-time charts, filters, and export functionality for business metrics.",
-      technologies: ["React", "D3.js", "Node.js", "MongoDB"],
+      title: "Financial Text Sentiment Analyser",
+      description: "Built a tool for analyzing sentiment in financial texts using Hugging Face Transformers.",
+      technologies: ["Huggingface api", "Python Flask"],
       icon: BarChart3,
       gradient: "from-green-500 to-teal-600",
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://financal-news-sentiment-analysis.onrender.com",
+      githubUrl: "https://github.com/flora-shek/financial_news_sentiment_analysis"
     }
   ];
 
@@ -112,7 +112,7 @@ export default function Projects() {
             variant="outline"
             size="lg"
             className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
-            onClick={() => window.open('https://github.com', '_blank')}
+            onClick={() => window.open('https://github.com/flora-shek', '_blank')}
           >
             <Github className="w-5 h-5 mr-2" />
             View All Projects on GitHub

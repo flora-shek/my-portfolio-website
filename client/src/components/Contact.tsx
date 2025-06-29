@@ -6,19 +6,19 @@ export default function Contact() {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/flora-shek",
       bgColor: "bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 dark:hover:bg-slate-600"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/shekinah-florance-ab4449202",
       bgColor: "bg-blue-600 hover:bg-blue-700"
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:john.doe@email.com",
+      url: "mailto:florashek24official@gmail.com",
       bgColor: "bg-red-600 hover:bg-red-700"
     }
   ];
