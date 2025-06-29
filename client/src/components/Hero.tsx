@@ -38,7 +38,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <span className="block text-slate-900 dark:text-white">Hi, I'm</span>
+            <span className="block text-slate-900 dark:text-white pt-[3px] pb-[3px]">Hi, I'm</span>
             <span className="block gradient-text">Shekinah Florance</span>
           </motion.h1>
           
