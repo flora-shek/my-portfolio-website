@@ -59,7 +59,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">Professional Bio</h3>
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                I'm a passionate MCA graduate with a strong foundation in computer science and a keen interest in software development. 
+                I'm a passionate individual with a strong foundation in computer science and a keen interest in software development. 
                 My journey in technology started during my undergraduate studies and has grown into a deep passion for creating 
                 innovative web applications and solving complex problems through code.
               </p>
