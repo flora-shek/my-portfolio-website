@@ -35,9 +35,6 @@ export default function Contact() {
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-4">Let's Connect</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
-          <p className="text-slate-600 dark:text-slate-300 mt-4 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and collaborations. Feel free to reach out!
-          </p>
         </motion.div>
         
         <div className="max-w-2xl mx-auto text-center">

@@ -87,6 +87,14 @@ The project follows a full-stack architecture with clear separation between fron
 ```
 Changelog:
 - June 29, 2025. Initial setup
+- June 29, 2025. Portfolio customization updates:
+  - Removed tools section from skills, now displays only Frontend/Backend
+  - Added authentic technology logos for all programming languages and frameworks
+  - Simplified contact section to show only social media icons (GitHub, LinkedIn, Email)
+  - Removed career goals from about section
+  - Removed resume download button from navigation
+  - Reduced featured projects to 2 cards
+  - Removed descriptive text from contact section header
 ```
 
 ## User Preferences
