@@ -9,7 +9,7 @@ export default function Internships() {
       company: "TechCorp Solutions",
       role: "Web Developer Intern",
       duration: "May 2024 – July 2024",
-      description: "Developed responsive landing pages using HTML5, CSS3, and Bootstrap. Collaborated with the design team to implement interactive animations using GSAP and JavaScript, improving user engagement by 25%.",
+      description: "Developed responsive landing pages using HTML5, CSS3, and Bootstrap.",
       technologies: ["HTML/CSS", "Bootstrap", "JavaScript", "GSAP"],
       icon: Code,
       gradient: "from-blue-500 to-purple-600"
