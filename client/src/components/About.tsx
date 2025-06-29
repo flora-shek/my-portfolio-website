@@ -72,7 +72,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">Education Timeline</h3>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-4">Education </h3>
               <div className="space-y-4">
                 {/* MCA - Completed */}
                 <div className="relative pl-8">
