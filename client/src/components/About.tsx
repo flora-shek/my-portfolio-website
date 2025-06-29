@@ -57,7 +57,7 @@ export default function About() {
           viewport={{ once: true }}
         >
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3 text-center">Career Summary</h3>
+            
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-center text-lg">I'm a passionate individual with a strong foundation in computer science and a keen interest in software development. </p>
           </div>
         </motion.div>
