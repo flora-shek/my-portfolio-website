@@ -39,7 +39,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <span className="block text-slate-900 dark:text-white">Hi, I'm</span>
-            <span className="block gradient-text">John Doe</span>
+            <span className="block gradient-text">Shekinah Florance</span>
           </motion.h1>
           
           <motion.p 
@@ -87,7 +87,6 @@ export default function Hero() {
           </motion.div>
         </motion.div>
       </div>
-      
       {/* Scroll Indicator */}
       <motion.div 
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float"
