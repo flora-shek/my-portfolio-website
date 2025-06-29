@@ -6,10 +6,10 @@ import { Code, Monitor } from "lucide-react";
 export default function Internships() {
   const internships = [
     {
-      company: "ILIFE Technologies",
+      company: "TechCorp Solutions",
       role: "Web Developer Intern",
-      duration: "08.05.2024 - 07.06.2024",
-      description: "Gained Practical exposure to frontend & backend technologies through 3 days hands-on training and internship.",
+      duration: "August 2024 – October 2024",
+      description: "Developed responsive landing pages using HTML5, CSS3, and Bootstrap. Collaborated with the design team to implement interactive animations using GSAP and JavaScript, improving user engagement by 25%.",
       technologies: ["HTML/CSS", "Bootstrap", "JavaScript", "GSAP"],
       icon: Code,
       gradient: "from-blue-500 to-purple-600"
@@ -17,7 +17,7 @@ export default function Internships() {
     {
       company: "Digital Innovations Ltd",
       role: "Frontend Developer Intern",
-      duration: "01.06.2022 - 03.06.2022",
+      duration: "May 2024 – July 2024",
       description: "Built interactive React components for a customer dashboard application. Implemented state management using Redux and integrated RESTful APIs. Participated in code reviews and agile development processes.",
       technologies: ["React", "Redux", "JavaScript", "REST APIs"],
       icon: Monitor,
