@@ -6,7 +6,7 @@ import { Code, Monitor } from "lucide-react";
 export default function Internships() {
   const internships = [
     {
-      company: "TechCorp Solutions",
+      company: "TechnoHacks EduTech",
       role: "Web Developer Intern",
       duration: "May 2024 – July 2024",
       description: "Developed responsive landing pages using HTML5, CSS3, and Bootstrap.",
