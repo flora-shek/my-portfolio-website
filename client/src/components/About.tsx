@@ -78,13 +78,7 @@ export default function About() {
               </Card>
             </div>
             
-            <div>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">Career Goals</h3>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-                My goal is to become a skilled full-stack developer contributing to meaningful projects that make a positive impact. 
-                I'm particularly interested in modern web technologies, cloud computing, and building scalable applications.
-              </p>
-            </div>
+
           </motion.div>
           
           <motion.div 

@@ -23,24 +23,6 @@ export default function Projects() {
       gradient: "from-green-500 to-teal-600",
       demoUrl: "#",
       githubUrl: "#"
-    },
-    {
-      title: "Chat Application",
-      description: "Real-time chat application with rooms, private messaging, file sharing, and emoji support. Built using React, Socket.io, and Firebase for authentication.",
-      technologies: ["React", "Socket.io", "Firebase", "Express"],
-      icon: MessageCircle,
-      gradient: "from-purple-500 to-pink-600",
-      demoUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Expense Tracker",
-      description: "Personal finance management app with expense categorization, budget tracking, and visualization charts. Features data export and recurring expense management.",
-      technologies: ["React", "Chart.js", "Flask", "SQLite"],
-      icon: DollarSign,
-      gradient: "from-orange-500 to-red-600",
-      demoUrl: "#",
-      githubUrl: "#"
     }
   ];
 

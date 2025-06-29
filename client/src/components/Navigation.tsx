@@ -92,17 +92,8 @@ export default function Navigation() {
             ))}
           </div>
           
-          {/* Theme Toggle & Resume Button */}
+          {/* Theme Toggle */}
           <div className="flex items-center space-x-4">
-            <Button
-              onClick={downloadResume}
-              className="hidden sm:inline-flex items-center"
-              size="sm"
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Resume
-            </Button>
-            
             <Button
               variant="outline"
               size="icon"
@@ -134,10 +125,6 @@ export default function Navigation() {
                       {item.label}
                     </button>
                   ))}
-                  <Button onClick={downloadResume} className="mt-4">
-                    <Download className="w-4 h-4 mr-2" />
-                    Download Resume
-                  </Button>
                 </div>
               </SheetContent>
             </Sheet>
