@@ -81,11 +81,11 @@ export default function About() {
                   <Card className="bg-slate-50 dark:bg-slate-700">
                     <CardContent className="p-4">
                       <div className="flex items-start justify-between mb-2">
-                        <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications| CGPA : 8.46</h4>
+                        <h4 className="font-semibold text-slate-900 dark:text-white">Master of Computer Applications</h4>
                         <span className="text-xs bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded-full">Completed</span>
                       </div>
                       <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Bishop Heber College</p>
-                      <p className="text-slate-500 dark:text-slate-400 text-sm">2023 - 2025</p>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">2023 - 2025 | CGPA : 8.46 </p>
                     </CardContent>
                   </Card>
                 </div>
@@ -95,9 +95,9 @@ export default function About() {
                   <div className="absolute left-0 top-1 w-3 h-3 bg-slate-400 rounded-full"></div>
                   <Card className="bg-slate-50 dark:bg-slate-700">
                     <CardContent className="p-4">
-                      <h4 className="font-semibold text-slate-900 dark:text-white">Bachelor of Computer Applications | CGPA : 8.49</h4>
+                      <h4 className="font-semibold text-slate-900 dark:text-white">Bachelor of Computer Applications</h4>
                       <p className="text-slate-600 dark:text-slate-300 text-sm mb-1">Bishop Heber College</p>
-                      <p className="text-slate-500 dark:text-slate-400 text-sm">2020 - 2023</p>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">2020 - 2023 | CGPA : 8.49</p>
                     </CardContent>
                   </Card>
                 </div>
